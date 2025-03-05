@@ -67,12 +67,6 @@
             </div>
         </section>
 
-        <!-- Visitor Counter Section -->
-        <section class="counter-container">
-            <h3>Visitor Counter</h3>
-            <p id="visit-counter">Loading...</p>
-        </section>
-
         <!-- Contact Section -->
         <section class="contact">
             <h3>You can find me here:</h3>
@@ -97,16 +91,6 @@
     <script src="script.js"></script>
 
     <script>
-        // JavaScript to handle the visitor counter
-        let counter = localStorage.getItem('visitCounter') || 0;
-        counter++;
-        localStorage.setItem('visitCounter', counter);
-
-        // Display the counter on the page
-        document.getElementById('visit-counter').innerText = `This page has been visited ${counter} times.`;
-    </script>
-</body>
-</html>
 
 <!-- Under Development Notice -->
 <div class="under-development-notice">
