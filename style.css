@@ -172,12 +172,13 @@ footer p {
 body.fade-in {
     visibility: visible;
 }
+
 /* Under Development Notice */
 .under-development-notice {
     background-color: #ff8c00;  /* Bright color to grab attention */
     color: white;
     text-align: center;
-    padding: 1px;
+    padding: 10px;
     font-size: 1.1rem;
     position: fixed;
     top: 0;
@@ -185,7 +186,6 @@ body.fade-in {
     width: 100%;
     z-index: 1000;  /* Ensures it stays above other content */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    margin-bottom: 60px; /* Prevents it from covering top content */
 }
 
 /* Prevent content from being covered by the banner */
