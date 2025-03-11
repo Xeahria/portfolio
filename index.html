@@ -3,96 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Xeahria's Portfolio</title>
-    
-    <!-- Favicon links -->
-    <link rel="icon" href="favicons/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="icon" href="favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="apple-touch-icon" href="favicons/apple-touch-icon.png">
-    <link rel="icon" href="favicons/android-chrome-192x192.png" sizes="192x192" type="image/png">
-
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        /* Fancy counter styling */
-        .counter-container {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #1c1c1c;
-            color: #f1f1f1;
-            font-size: 18px;
-            font-family: 'Arial', sans-serif;
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        .counter-container h3 {
-            margin-bottom: 10px;
-            font-size: 22px;
-        }
-
-        .counter-container p {
-            font-weight: bold;
-            font-size: 24px;
-        }
-    </style>
 </head>
 <body>
-    <!-- Under Development Notice -->
-    <div class="under-development-notice">
-        <p>🚧 Website Under Development 🚧</p>
-    </div>
-
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About Me</a>
+        </nav>
+    </header>
     <div class="container">
-        <header>
-            <div class="logo">
-                <!-- Logo Image (favicon as logo next to name) -->
-                <img src="favicons/favicon.ico" alt="Xeahria Logo" class="logo-img">
-                <h1>Xeahria</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Welcome to My Portfolio</h2>
-                <p>Passionate Developer | Coding Enthusiast</p>
-                <div class="button-container">
-                    <a href="about.html" class="btn">About Me</a>
-                    <a href="portfolio.html" class="btn">Explore My Work</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="contact">
-            <h3>You can find me here:</h3>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <img src="favicons/discord-icon.png" alt="Discord" class="icon">
-                    <span>Discord: xeahria</span>
-                </div>
-                <div class="contact-item">
-                    <img src="favicons/github-icon.webp" alt="GitHub" class="icon">
-                    <span>GitHub: <a href="https://github.com/Xeahria" target="_blank">Xeahria</a></span>
-                </div>
-                <!-- Add more social contacts here -->
-            </div>
-        </section>
-
-        <footer>
-            <p>&copy; 2025 Xeahria. All rights reserved.</p>
-        </footer>
+        <h2>Welcome to My Portfolio</h2>
+        <p>Explore my projects and learn more about me.</p>
+        <button onclick="location.href='portfolio.html'">View Portfolio</button>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
