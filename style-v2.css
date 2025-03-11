@@ -1,5 +1,8 @@
 /* General Styles */
-body {
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #0a0a0a;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
@@ -45,6 +48,7 @@ nav a:hover {
 
 /* Main Content */
 .container {
+    flex: 1;  /* Pushes footer to bottom */
     padding: 60px 20px;
     text-align: center;
     max-width: 900px;
@@ -86,14 +90,13 @@ nav a:hover {
     box-shadow: 0 6px 14px rgba(255, 0, 0, 0.6);
 }
 
+/* Footer Fix */
 footer {
     text-align: center;
     padding: 20px 0;
     background: #111;
     color: #fff;
-    position: relative; /* Change from absolute to relative */
     width: 100%;
-    bottom: 0;
 }
 
 /* Page Transition Effects */
