@@ -60,7 +60,7 @@ nav a:hover {
     box-shadow: 0 4px 10px rgba(255, 0, 0, 0.3);
 }
 
-/* Fix button display */
+/* Buttons */
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -91,7 +91,7 @@ footer {
     padding: 20px 0;
     background: #111;
     color: #fff;
-    position: absolute;
+    position: relative; /* Change from absolute to relative */
     width: 100%;
     bottom: 0;
 }
